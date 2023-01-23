@@ -4,7 +4,7 @@ function updateTime() {
     var minutes = now.getMinutes();
     var seconds = now.getSeconds();
   
-    document.getElementById('time').innerHTML =  now 
+    document.getElementById('time').innerHTML = 'last updated on:'  +  now 
   }
   
   setInterval(updateTime, 2000);
